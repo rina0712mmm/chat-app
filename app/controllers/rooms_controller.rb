@@ -1,4 +1,5 @@
 class RoomsController < ApplicationController
+
   def new
     @room = Room.new
   end
@@ -10,6 +11,9 @@ class RoomsController < ApplicationController
     else
       render :new
     end
+  end
+
+  def index
   end
 
   private
